@@ -1,9 +1,22 @@
-## Backend Users
+## BACK-END USERS
 
 Ejecutar el comando
 ``
 npm install
 ``
 
-Crear una base de datos en mongo llamada:
-practica
+Para ejecutar las pruebas ejecutar el comando:
+``
+npm run test
+``
+
+Para ejecutar el backend ejecutar el comando:
+``
+sudo docker-compose up
+``
+
+En caso de que docker no se ejecute correctamente cambiar la url de conexión de mongo que se encuentra en variables.env  por:
+``
+mongodb://localhost:27017/practica
+``
+para poder ver la aplicación en funcionamiento.

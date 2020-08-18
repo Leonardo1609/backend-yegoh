@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 const app = require('../src/server');
 const supertest = require('supertest');
 const request = supertest( app );
-// const db_test = 'mongodb://mongo:27017/test_db';
 const db_test = 'mongodb://localhost:27017/test_db';
+// const db_test = 'mongodb://localhost:27017/test_db';
 
 const user_insert = {
     names: "Leonardo",
