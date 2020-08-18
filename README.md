@@ -19,4 +19,8 @@ En caso de que docker no se ejecute correctamente cambiar la url de conexión de
 ``
 mongodb://localhost:27017/practica
 ``
-para poder ver la aplicación en funcionamiento.
+y ejecutar el comando
+``
+npm start
+``
+, para poder ver la aplicación en funcionamiento.
